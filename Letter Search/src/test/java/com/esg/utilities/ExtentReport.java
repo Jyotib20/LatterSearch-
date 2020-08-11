@@ -11,7 +11,7 @@ public class ExtentReport extends BaseClass {
 	public static String element;
 
 	public static void initialization() {
-		Report = new ExtentReports(System.getProperty("user.dir") + "/test-output/ExtentScreenshot.html", true);
+		Report = new ExtentReports(System.getProperty("user.dir") + "/test-output/ExtentReport.html", true);
 		// test = Report.startTest(Test);
 	}
 
